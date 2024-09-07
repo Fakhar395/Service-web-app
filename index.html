@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serivces Web app</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b34209355.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="overlay">
+    <nav class="navbar navbar-expand-lg b-bottom" id="navbar">
+        <a class="navbar-brand" href="#"><img src="./images/logo-02.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto" id="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                     Home
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Home 01</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Home 02</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Home 03</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Home 04</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">List Style</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dashbooard</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Others
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">All category</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Service detail Two</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Service detail Three</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Service detail Four</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Seller Profile</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Seller View</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Invoice</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Sign up</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">404</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Multistep Form</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Multistep Form Two</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Registerstep Form</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Blog
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Blog</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Blog Details</a>
+                    </div>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="navbar-right">
+                <div class="navbar-ifno-items d-flex align-items-center">
+                    <div class="item-left pr-3">
+                        <i class="fa fa-bell-o text-white"></i>
+                    </div>
+                    <div class="item-right">
+                        <img src="./images/author-nav.jpg" alt="">
+                        <span class="author-title pl-2 text-white">Alex Jerin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+                <!-- nav end -->
+                <!-- banner section -->
+    <section class="banner-area home-one-banner banner bg-img">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="banner-contents">
+                        <span class="title-top"> Order any service, anytime from anywhere </span>
+                        <h2 class="banner-title"> One-stop solution for your <span class="title-span"> services </span> </h2>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="col-md-2">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary p-4 dropdown-toggle banner-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                                        New York
+                                </button>
+                                <div class="dropdown-menu"
+                                    aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">New York</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">London</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Eden Garden</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Paris</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="input-group input-group-lg inpt-grp">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text p-4 serch-span">
+                                        <i class="fa fa-search"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control p-5 input" placeholder="what you are looking for">
+                                <div class="input-group-append">
+                                    <span class="input-group-text serch-span-2 p-4">
+                                        <i class="fa fa-search"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4 justify-content-center">
+                        <div class="col-md-10">
+                          <span class="keyword-title">popular</span>
+                          <a href="#" type="button">Electricain</a>  
+                          <a href="#" type="button">Container</a>  
+                          <a href="#" type="button">Painting</a>  
+                          <a href="#" type="button">Saloon</a>  
+                          <a href="#" type="button">Home Move</a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
+                        <!-- category -->
+    <section class="category">
+            <div class="spacer"></div>
+            <h2 class="section-title text-center">Browse <span>Categories</span></h2>
+            <p class="text-center">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout</p>
+
+        <div class="container">
+            <div class="spacer"></div>
+            <div class="row justify-content-around align-items-md-start align-items-around">
+                <div class="col-md-2">
+                    <div class="my-card-boxes">
+                        <div class="card-box b-one">
+                            <i class="fa fa-hand-spock-o"></i>
+                            <h4>Cleaning</h4>
+                            <p>36+ Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="my-card-boxes">
+                        <div class="card-box b-two">
+                            <i class="fa fa-user"></i>
+                            <h4>Electric</h4>
+                            <p>36+ Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="my-card-boxes">
+                        <div class="card-box b-three">
+                            <i class="fa fa-truck"></i>
+                            <h4>Home Move</h4>
+                            <p>36+ Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="my-card-boxes">
+                        <div class="card-box b-four">
+                            <i class="fa fa-cutlery"></i>
+                            <h4>Saloon & Spa</h4>
+                            <p>36+ Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="my-card-boxes">
+                        <div class="card-box b-five">
+                            <i class="fa fa-paint-brush"></i>
+                            <h4>Painting</h4>
+                            <p>36+ Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+                        <!-- Featured -->
+    <section class="featured">
+        <div class="spacer"></div>
+        <h2 class="section-title text-center"><span>Featured</span> Services</h2>
+        <p class="text-center">It is a long established fact that a reader will be distracted by the <br>readable content of a page when looking at its layout.</p>
+        <div class="spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/fs1.jpg" alt="">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i> &nbsp;<span>4.9 (231)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All panting & Renovation Services</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    It is long established fact that a reader will be distracted by the readable.
+                                </p>
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-outline-success">Book Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div>
+                            <div class="card-img">
+                                <img src="./images/fs2.jpg" alt="">
+                                <i class="fa fa-trophy"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author2.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.9 (371)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All emergency electrical support</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    It is long established fact that a reader will be distracted by the readable.
+                                </p>
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-outline-success">Book Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/fs3.jpg" alt="">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author3.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.8 (145)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All Haircut & Haircut services</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    It is long established fact that a reader will be distracted by the readable.
+                                </p>
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-outline-success">Book Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+                                <!-- services -->
+    <section class="services">
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <h2 class="section-title text-center"><span>popular</span> Services</h2>
+        <p class="text-center">It is a long established fact that a reader will be distracted by the <br>readable content of a page when looking at its layout.</p>
+        <div class="spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-bg">
+                            <div class="card-img">
+                                <img src="./images/s1.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author1.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.9 (371)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All emergency electrical support</h2>
+                            </div>
+                            <div class="card-bottom-text">
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-success">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-bg">
+                            <div class="card-img">
+                                <img src="./images/s2.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author2.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.9 (371)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All emergency electrical support</h2>
+                            </div>
+                            <div class="card-bottom-text">
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-success">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-bg">
+                            <div class="card-img">
+                                <img src="./images/s3.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author3.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.9 (371)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All emergency electrical support</h2>
+                            </div>
+                            <div class="card-bottom-text">
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-success">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="small-spacer"></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-bg">
+                            <div class="card-img">
+                                <img src="./images/fs2.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author2.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.9 (371)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All emergency electrical support</h2>
+                            </div>
+                            <div class="card-bottom-text">
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-success">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-bg">
+                            <div class="card-img">
+                                <img src="./images/s5.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author5.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.9 (371)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All emergency electrical support</h2>
+                            </div>
+                            <div class="card-bottom-text">
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-success">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-bg">
+                            <div class="card-img">
+                                <img src="./images/s6.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-l">
+                                    <img src="./images/author6.jpg" alt="">
+                                    <p>Riyaz Hussain</p>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-star"></i>&nbsp;
+                                    <span>4.9 (371)</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All emergency electrical support</h2>
+                            </div>
+                            <div class="card-bottom-text">
+                                <p class="pricing">starting at <span>$80.00</span></p>
+                                <button class="btn btn-success">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="small-spacer"></div>
+            <div class="button-center text-center">
+                <button class="btn btn-outline-success">Explore More</button>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+                        <!-- marketplace -->
+    <section class="marketplace">
+        <div class="spacer"></div>
+        <h2 class="text-center section-title">Why Our <span>Marketplace</span></h2>
+        <p class="text-center">It is a long established fact that a reader will be distracted by the <br>readable content of a page when looking at its layout.</p>
+        <div class="spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <div class="icon mx-auto ico-one">
+                            <i class="fa fa-wrench"></i>
+                        </div>
+                        <h4>Service commitment</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable. It is a long established fact that a reader.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <div class="icon mx-auto ico-two">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <h4>Super Experience</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable. It is a long established fact that a reader.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <div class="icon mx-auto ico-three">
+                            <i class="fa fa-shield"></i>
+                        </div>
+                        <h4>User Data Secure</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable. It is a long established fact that a reader.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="small-spacer"></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <div class="icon mx-auto ico-four">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <h4>Service commitment</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable. It is a long established fact that a reader.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <div class="icon mx-auto ico-five">
+                            <i class="fa fa-money"></i>
+                        </div>
+                        <h4>Super Experience</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable. It is a long established fact that a reader.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center p-4">
+                        <div class="icon mx-auto  ico-six">
+                            <i class="fa fa-phone-square"></i>
+                        </div>
+                        <h4>User Data Secure</h4>
+                        <p>It is a long established fact that a reader will be distracted by the readable. It is a long established fact that a reader.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+                        <!-- start as a seller -->
+    <section class="seller">
+        <div class="container">
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="section-title">Start As a <span>Seller</span></h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <div class="seller-list">
+                        <ul class="list-unstyled">
+                            <li>It is a long established fact that a reader will be distracted by the readable content of a page.</li>
+                            <li>It is a long established fact that a reader will be distracted by the readable content of a page.
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-success">Become A Seller</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="seller-img">
+                        <img src="./images/seller.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+                            <!-- Blog & Artical -->
+    <section class="blog">
+        <div class="spacer"></div>
+        <h2 class="text-center section-title">Recent <span>Blog & Artical</span></h2>
+        <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div class="spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/b1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-o">
+                                    <i class="fa fa-clock"></i> &nbsp; 
+                                    <span>26 Feb 2023</span>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-tag"></i> &nbsp;
+                                    <span>Painting</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All panting & Renovation Services</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    It is long established fact that a reader will be distracted by the readable.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/b2.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-o">
+                                    <i class="fa fa-clock"></i> &nbsp; 
+                                    <span>26 Feb 2023</span>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-tag"></i> &nbsp;
+                                    <span>Electrial</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>All Emergency Electrical Support</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    It is long established fact that a reader will be distracted by the readable.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./images/b3.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-review">
+                                <div class="box-o">
+                                    <i class="fa fa-clock"></i> &nbsp; 
+                                    <span>26 Feb 2023</span>
+                                </div>
+                                <div class="box-r">
+                                    <i class="fa fa-tag"></i> &nbsp;
+                                    <span>Cleaner</span>
+                                </div>
+                            </div>
+                            <div class="card-title">
+                                <h2>Home Cleaning & All Other Services</h2>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    It is long established fact that a reader will be distracted by the readable.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+    </section>
+                                    <!-- footer -->
+    <section class="footer">
+        <div class="spacer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-box">
+                        <div class="img-box py-4">
+                            <img src="./images/logo-footer.png" width="100%" alt="">
+                        </div>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-box second-f-box">
+                        <h6 class="py-4">Contact Info</h6>
+                        <p><i class="fa fa-map-marker small-icn"></i>&nbsp; <span>41/1, Hilton Mall, NY City New York</span></p>
+                        <p><i class="fa fa-mobile small-icn"></i>&nbsp; <span>+92 3247597250</span></p>
+                        <p><i class="fa fa-envelope-o small-icn"></i>&nbsp; <span>help@mail.com</span></p>
+                        <p class="social-icn">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-youtube"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-box">
+                        <h6 class="py-4">Recent News</h6>
+                        <div class="footer-inner">
+                            <div class="third-f-box">
+                                <img src="./images/n1.jpg" width="100px" height="100px" alt="">
+                                <p>Everything opened for the sake of livelihood.</p>
+                            </div>
+                            <div class="third-f-box">
+                                <img src="./images/n2.jpg" width="100px" height="100px" alt="">
+                                <p>Mary Lou Retton Is for the All About the Memories.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-box">
+                        <h6 class="py-4">Subscriber Newslater</h6>
+                        <p class="py-3">Get the latest creative news from Qixer template</p>
+                        <div class="footer-form">
+                            <input type="email" class="form-control p-4" placeholder="Enter Email Address">
+                            <button><i class="fa fa-paper-plane"></i></button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <hr>
+        <div class="container">
+            <div class="row text-md-left text-center">
+                <div class="col-md-4 policy">
+                    <p>Privacy Policy | Terms & Conditions</p>
+                </div>
+                <div class="col-md-4">
+                    <p>All copyright (C) 2023 Reserved</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="last-footer-box">
+                        <img src="./images/c1 (1).png" width="100%" alt="">
+                        <img src="./images/c2 (1).png" width="100%" alt="">
+                        <img src="./images/c3 (1).png" width="100%" alt="">
+                        <img src="./images/c4 (1).png" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                            <!-- back to top icon -->
+    <div class="back-to-top">
+        <span class="back-to">
+            <i class="fa fa-angle-up"></i>
+        </span>
+    </div>
+</body>
+</html>
